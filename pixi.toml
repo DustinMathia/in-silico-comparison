@@ -1,0 +1,11 @@
+[workspace]
+channels = ["conda-forge"]
+name = "in-silico-comparison"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyterlab = ">=4.5.1,<5"
+duckdb = ">=1.4.3,<2"
