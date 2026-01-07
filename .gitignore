@@ -1,3 +1,24 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+#data
+.xlsx
+!data/example_variant_data.xlsx
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python specific files
+*.pyc
+__pycache__/
+
+# IDE or OS generated files
+.DS_Store
+.idea/
