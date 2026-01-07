@@ -9,3 +9,4 @@ version = "0.1.0"
 [dependencies]
 jupyterlab = ">=4.5.1,<5"
 duckdb = ">=1.4.3,<2"
+pydantic = ">=2.12.5,<3"
