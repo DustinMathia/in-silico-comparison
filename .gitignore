@@ -2,12 +2,17 @@
 .pixi/*
 !.pixi/config.toml
 
+.env
+
 #data
-.xlsx
+*.xlsx
 !data/example_variant_data.xlsx
+*.duckdb
 
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
+**/.jupyter_ystore.db
 
 # Virtual environments
 .venv/
@@ -22,3 +27,14 @@ __pycache__/
 # IDE or OS generated files
 .DS_Store
 .idea/
+
+
+#temp
+*.bai
+*.bam
+*.vcf
+*.log
+*.err
+*.out
+*.tmp
+*.temp
